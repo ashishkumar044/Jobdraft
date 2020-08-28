@@ -1,0 +1,36 @@
+//User Reducer Types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED'
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED'
+export const SET_JOBSEEKER = 'SET_JOBSEEKER'
+export const LOADING_JOBSEEKER = 'LOADING_JOBSEEKER'
+export const SET_RECRUITER = 'SET_RECRUITER'
+export const LOADING_RECRUITER = 'LOADING_RECRUITER'
+
+//UI Reducer Types
+export const SET_ERRORS = 'SET_ERRORS'
+export const LOADING_UI = 'LOADING_UI'
+export const CLEAR_ERRORS = 'CLEAR_ERRORS'
+export const LOADING_DATA = 'LOADING_DATA'
+export const STOP_LOADING_UI = 'STOP_LOADING_UI'
+
+//Data Reducer Types
+export const SET_JOBPOSTS = 'SET_JOBPOSTS'
+export const SET_JOB = 'SET_JOB'
+export const APPLY_JOB = 'APPLY_JOB'
+export const DELETE_JOB = 'DELETE_JOB'
+export const POST_JOB = 'POST_JOB'
+export const DELETE_APPLICATION = 'DELETE_APPLICATION'
+export const POST_PROJECT = 'POST_PROJECT'
+export const POST_QUESTION = 'POST_QUESTION'
+
+//Community Reducer Types
+export const SET_SCREAMS = 'SET_SCREAMS'
+export const SET_SCREAM = 'SET_SCREAM'
+export const UPVOTE_COMMENT = 'UPVOTE_COMMENT'
+export const REMOVE_UPVOTE = 'REMOVE_UPVOTE'
+export const DOWNVOTE_COMMENT = 'DOWNVOTE_COMMENT'
+export const REMOVE_DOWNVOTE = 'REMOVE_DOWNVOTE'
+export const DELETE_SCREAM = 'DELETE_SCREAM'
+export const DELETE_COMMENT = 'DELETE_COMMENT'
+export const POST_SCREAM = 'POST_SCREAM'
+export const POST_COMMENT = 'POST_COMMENT'
